@@ -1,0 +1,17 @@
+#Random rain to online user
+figlet </dev/urandom|write username
+
+#Star War show to online user
+telnet towel.blinkenlights.nl |write username
+
+#Digital Clock
+
+#!/bin/bash 
+while [ 1 ];
+do
+	clear
+	date +%r | figlet
+	sleep 1
+done
+
+
